@@ -9,15 +9,26 @@
 **country_data 国家数据**
 ```
 {
-	cn : 		国家中文名称
-	en : 		国家英文名称
-	full: 		国家英文全称
-	abb2: 		国家英文2位简称（大写）
-	abb3:		国家英文3位 简称（ 大写）
+	cn : 		国家中文名称,
+	en : 		国家英文名称,
+	full: 		国家英文全称,
+	abb2: 		国家英文2位简称（大写）,
+	abb3:		国家英文3位 简称（ 大写）,
 	code:		国家code数字（字符串）
 }
+
+example:
+{
+	"cn"	:	"中国",
+	"en"	:	"China",
+	"full"	:	"the People's Republic of China",
+	"abb2"	:	"CN",
+	"abb3"	:	"CHN",
+	"code"	:	"156"
+}
+
 ```
 
-#### countries_flags 国旗图片文件夹
+#### [countries_flags](countries_flags "国旗图片文件夹") 国旗图片文件夹
 以国家英文2位简称为图片名的国旗图片，包含全部主流国家，缺少几个小众国家的国旗图片。
 图片绝大部分宽640px
