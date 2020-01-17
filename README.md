@@ -9,22 +9,22 @@
 **country_data 国家数据**
 ```
 {
-	cn : 		国家中文名称,
-	en : 		国家英文名称,
-	full: 		国家英文全称,
-	abb2: 		国家英文2位简称（大写）,
-	abb3:		国家英文3位 简称（ 大写）,
-	code:		国家code数字（字符串）
+	cn	: 国家中文名称,
+	en	: 国家英文名称,
+	full	: 国家英文全称,
+	abb2	: 国家英文2位简称（大写）,
+	abb3	: 国家英文3位 简称（ 大写）,
+	code	: 国家code数字（字符串）
 }
 
 example:
 {
-	"cn"	:	"中国",
-	"en"	:	"China",
-	"full"	:	"the People's Republic of China",
-	"abb2"	:	"CN",
-	"abb3"	:	"CHN",
-	"code"	:	"156"
+	"cn"	: "中国",
+	"en"	: "China",
+	"full"	: "the People's Republic of China",
+	"abb2"	: "CN",
+	"abb3"	: "CHN",
+	"code"	: "156"
 }
 
 ```
